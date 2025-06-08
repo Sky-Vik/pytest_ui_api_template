@@ -6,7 +6,7 @@
 1. Склонировать проект 'git clone https://github.com/имя_пользователя/
    pytest_ui_api_template.git'
 2. Установить зависимости
-3. Запустить тесты 'pytest'
+3. Запустить тесты 'python -m pytest'
 
 ### Стек:
 - pytest
