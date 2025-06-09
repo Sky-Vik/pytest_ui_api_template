@@ -4,11 +4,15 @@ from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from configuration.ConfigProvider import ConfigProvider
+
 
 class MainPage:
 
     def __init__(self, driver: WebDriver) -> None:
         self.__driver = driver
+        self.url = ConfigProvider().get("ui", "base_url")
+        self._url = self.url+"/u/victoriya_k202506/boards"
 
     @allure.step("Получить текущий URL")
     def get_current_url(self) -> str:
