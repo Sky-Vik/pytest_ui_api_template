@@ -19,14 +19,17 @@
 - config
 
 ### Структура:
-- ./test - тесты
+- ./test_ - тесты
 - ./pages - описание страниц
 - ./api - хелперы для работы с API
 - ./db - хелперы для работы с БД
+- ./configuration - провайдер настроек
+   - test_config.ini
 
 ### Полезные ссылки
 - [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
 - [Генератор файла .gitignore](https://www.toptal.com/developers/gitignore)
+- [Про configparser](https://docs.python.org/3/library/configparser.html#configparser-objects)
 
 ### Библиотеки (!)
 - pyp install pytest
