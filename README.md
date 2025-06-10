@@ -19,12 +19,15 @@
 - config
 
 ### Структура:
-- ./test_ - тесты
+- ./test - тесты
+   - pytest.ini - конфигурация для запуска тестов
 - ./pages - описание страниц
 - ./api - хелперы для работы с API
-- ./db - хелперы для работы с БД
+- ./db - хелперы для работы с БД (?)
 - ./configuration - провайдер настроек
-   - test_config.ini
+   - test_config.ini - настройки для тестов
+- ./testdata - провайдер тестовых данных
+   - test_data.json - данные для тестов
 
 ### Полезные ссылки
 - [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
